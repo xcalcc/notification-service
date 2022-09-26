@@ -1,0 +1,12 @@
+FROM node:14-alpine
+
+
+# Bundle app source
+
+RUN mkdir /data
+WORKDIR /app
+COPY ./service /app/service
+RUN chmod +x /app/service
+
+EXPOSE 4004
+CMD [ "service"]
