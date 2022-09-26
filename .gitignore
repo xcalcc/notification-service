@@ -2,10 +2,9 @@
 node_modules
 .env
 files
-postman/report.html
 data/report
 logs
 utils/sys-log.log
-data/utilities/standardsToRules*.xlsx
+dist
 
 service
